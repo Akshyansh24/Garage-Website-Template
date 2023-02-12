@@ -1,0 +1,1356 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* ===================== Nav Mobile ============================ */
+
+  .section-mobile-nav{
+      padding: 10px 0px;
+     background-color: white;
+    z-index: 9999999;
+    width: 100%;;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    right: 0;
+    background-color: #222222;
+    transition: 0.5s;
+    padding-top: 20px;
+    overflow: hidden;
+    z-index: 99999999;
+    overflow-y: scroll;
+    box-shadow: 10px 10px 60px rgba(0,0,0,0.2)
+  }
+  
+  .sidenav ul{
+    list-style: none;
+    margin-top: 50px;
+  }
+  
+  .closebtn{
+      text-decoration: none;
+      color: white;
+  }
+  
+  .closebtn:hover{
+      text-decoration: none;
+      color: black !important;
+  }
+
+    .sidenav ul li a{
+    /* margin: 8px 8px 40px 33px; */
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    line-height: 3;
+    border-bottom: 1px solid white;
+    padding-left: 20px;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
+  
+  .sidenav ul li a:hover{
+      text-decoration: none;
+      color: white !important;
+      border-bottom: 1px solid #1c63b8;
+      background-color: #1c63b8;
+  }
+
+  .special-active-mobile{
+    color: white !important;
+    display: inline-block;
+    border-bottom: none !important;
+    background-color: #1c63b8;
+  }
+  
+  .side-nav-item i{
+    padding-right: 15px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .logo-mobile{
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .logo-mobile img {
+    height: 40px;
+    width: 190px;
+  
+  }
+  
+  .nav-tongle span {
+    float: right;
+    color: white;
+    background-color: #1c63b8;
+    padding: 0 10px;
+  }
+
+    .nav-tongle{
+      display: inline-block;
+      float: right;
+      padding-right: 10px;
+  }
+  
+  .nav-tongle span:hover {
+    color: white;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 23px;
+    font-size: 36px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 20px;
+    }
+    .sidenav a {
+        font-size: 20px;
+    }
+  }
+
+  .login-user{
+    margin-top: 50px;
+  }
+
+  .user-img{
+    display: block;
+    text-align: center;
+  }
+  .user-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+
+  .user-other-content{
+    margin-top: 30px;
+    padding-left: 20px;
+  }
+
+  .log-in-btn{
+    display: inline-block;
+    background-color: white;
+    padding: 3px 19px;
+    border-radius: 8px;
+    border: 1px solid #008000;
+  }
+
+  .log-in-btn a{
+    text-decoration: none;
+    color: #008000;
+    font-family: initial;
+    font-size: 20px;
+  }
+
+  .sign-up-btn{
+    display: inline-block;
+    margin-left: 105px;
+    background-color: white;
+    padding: 3px 19px;
+    border-radius: 8px;
+    border: 1px solid #008000;
+  }
+  
+  .sign-up-btn a{
+    text-decoration: none;
+    color: #008000;
+    font-family: initial;
+    font-size: 20px;
+  }
+
+  /* ======================= header and Nav For Tablet And Other ================== */
+  @media only screen and (min-width:767px) and (max-width:991px){
+      
+    /* --------------- header --------------  */
+    
+    .welcome p{
+        line-height: 50px;
+        font-size: 12px;
+    }
+
+    .Social-header-ul{
+        margin-top: 14px;
+    }
+
+    .Social-header-ul li a{
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .book-now-box a{
+        font-size: 11px;
+        line-height: 10px;
+        padding: 20px 4px;
+    }
+
+    /* ------------- Middle ----------------- */
+
+    .section-middle-header{
+        overflow: hidden;
+    }
+    .logo-box img{
+        width: 212px;
+    }
+
+    .info-box{
+        padding: 14px 0px;
+    }
+    .info-icon i{
+        font-size: 20px;
+    }
+
+    .bold-detail{
+        font-size: 11px !important;
+    }
+
+    .info-detail p{
+        font-size: 9px;
+    }
+
+    /* ------------- Nav Bar --------------- */
+
+    .nav-logo img {
+        width: 160px;
+        display: none;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .nav-ul li a{
+        padding: 17px 20px;
+        font-size: 13px;
+    }
+
+  }
+
+
+   @media only screen and (min-width:767px) and (max-width:1200px){
+      
+    /* --------------- header --------------  */
+    
+    .welcome p{
+        line-height: 50px;
+        font-size: 12px;
+    }
+
+    .Social-header-ul{
+        margin-top: 14px;
+    }
+
+    .Social-header-ul li a{
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .book-now-box a{
+        font-size: 11px;
+        line-height: 10px;
+        padding: 20px 4px;
+    }
+
+    /* ------------- Middle ----------------- */
+
+    .section-middle-header{
+        overflow: hidden;
+    }
+    .logo-box img{
+        width: 212px;
+    }
+
+    .info-box{
+        padding: 14px 0px;
+    }
+    .info-icon i{
+        font-size: 20px;
+    }
+
+    .bold-detail{
+        font-size: 11px !important;
+    }
+
+    .info-detail p{
+        font-size: 9px;
+    }
+
+    /* ------------- Nav Bar --------------- */
+
+    .nav-logo img {
+        width: 160px;
+        display: none;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .nav-ul li a{
+        padding: 17px 20px;
+        font-size: 13px;
+    }
+
+  }
+
+  
+
+
+
+/* =============================== Slider====================== */
+ @media only screen and (min-width:320px) and (max-width:767px){
+    
+    #prev img{
+        width: 30px;
+    }
+
+    #next img{
+        width: 30px;
+    }
+
+    #next{
+        width: 9%;
+    }
+
+ }
+
+
+
+ /* ======================== About Section =============== */
+
+ @media only screen and (min-width:320px) and (max-width:414px){
+ 
+ .section-about-company {
+    padding: 30px 25px;
+    }
+
+.about-company-title h1{
+    text-align: center;
+    font-size: 25px;
+}
+ 
+ .about-company-text{
+     text-align: justify;
+ }
+ 
+ .about-company-title h1::before {
+     left: 39%;
+ }
+
+ .about-company-title h1::after {
+    left: 34%;
+ }
+
+ .founder-name h3{
+     font-size: 14px;
+ }
+
+ .founder-signature img{
+     width: 100px;
+ }
+}
+
+@media only screen and (min-width:414px) and (max-width:580px){
+
+    .section-about-company {
+        padding: 30px 25px;
+    }
+
+    .about-company-title h1{
+        text-align: center;
+        font-size: 30px;
+    }
+     
+    .about-company-title h1::before {
+        left: 40% !important;
+    }
+   
+    .about-company-title h1::after {
+        left: 35% !important;
+    }
+
+    .about-company-text{
+        text-align: justify;
+    }
+
+    .founder-name{
+        margin-top: 20px;
+    }
+
+    .founder-signature{
+        display: inline-block;
+        float: right;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:581px) and (max-width:767px){
+
+    .section-about-company {
+        padding: 30px 25px;
+    }
+
+    .about-company-title h1{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .about-company-title h1::before {
+        left: 42% !important;
+    }
+   
+    .about-company-title h1::after {
+        left: 37% !important;
+    }
+
+    .about-company-text{
+        text-align: justify;
+    }
+
+    .founder-name{
+        margin-top: 20px;
+    }
+
+    .founder-signature{
+        display: inline-block;
+        float: right;
+        margin-top: 20px;
+    }
+
+    .founder-signature{
+        display: inline-block;
+        float: right;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .about-company-title h1{
+        font-size: 30px;
+    }
+
+    .about-company-title h1::before {
+        left: 36% !important;
+    }
+   
+    .about-company-title h1::after {
+        left: 42% !important;
+    }
+
+    .about-company-text p{
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .founder-name h3{
+        font-size: 15px;
+    }
+
+    .founder-signature{
+        display: inline-block;
+        float: right;
+    }
+
+    .founder-signature img{
+        width: 100px;
+    }
+    .welcome-img img{
+        padding-top: 35%;
+    }
+
+}
+/* ============================= Services ====================== */
+
+@media only screen and (min-width:320px) and (max-width:414px){
+
+    .section-services{
+        padding: 50px 25px;
+    }
+
+    .service-header h1::before {
+        left: 36%;
+    }
+
+    .service-header h1::after{
+        left: 43%;
+    }
+}
+
+@media only screen and (min-width:414px) and (max-width:580px){
+
+    .section-services{
+        padding: 50px 25px;
+    }
+
+    .service-header h1::before {
+        left: 40%;
+    }
+
+    .service-header h1::after{
+        left: 46%;
+    }
+
+}
+
+@media only screen and (min-width:581px) and (max-width:767px){
+
+    .section-services{
+        padding: 50px 25px;
+    }
+
+    .service-header h1::before {
+        left: 42%;
+    }
+
+    .service-header h1::after{
+        left: 45%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    
+    .first-services{
+        padding: 40px 0px;
+    }
+
+    .service-box {
+        padding: 10px 10px;
+    }
+
+    .service-img img{
+        width: 55px;
+    }
+
+    .service-text h3 a{
+        font-size: 17px;
+    }
+
+    .service-text p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+/* =============== Counter ========================= */
+
+@media only screen and (min-width:320px) and (max-width:450px){
+
+    .counter{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (min-width:451px) and (max-width:767px){
+
+    .counter{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .counter i {
+        font-size: 24px;
+    }
+
+    .counter-text p {
+        font-size: 20px;
+        margin: -2px 2px;
+    }
+
+    .counter-text-title h3{
+        font-size: 12px;
+        min-width: 100px;
+    }
+
+}
+/* ======================= Query ============= */
+
+@media only screen and (min-width:320px) and (max-width:450px){
+
+    .section-query{
+        padding: 60px 25px;
+    }
+    .query h1{
+        font-size: 18px;
+        margin-bottom: 27px;
+        margin-left: 0;
+        text-align: justify;
+
+    }
+
+    .query-btn-box{
+        margin-left: 23%;
+    }
+}
+
+@media only screen and (min-width:450px) and (max-width:767px){
+
+    .section-query{
+        padding: 60px 25px;
+    }
+
+    .query h1{
+        font-size: 20px;
+        margin-bottom: 27px;
+        margin-left: 0;
+        text-align: justify;
+
+    }
+
+    .query-btn-box{
+        margin-left: 26%;
+    }
+
+    .query-btn{
+        padding: 15px 60px;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .query h1{
+        font-size: 19px;
+        margin-bottom: 27px;
+    }
+
+    .query-btn-box{
+        margin-left: 36%;
+    }
+
+    .query-btn{
+        padding: 15px 60px;
+    }
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .query h1{
+        font-size: 19px;
+        margin-bottom: 27px;
+        margin-left: 99px;
+    }
+
+    .query-btn-box{
+        margin-left: 36%;
+    }
+
+    .query-btn{
+        padding: 15px 60px;
+    }
+
+
+}
+
+/* -====================== Footer ============== */
+@media only screen and (min-width:320px) and (max-width:575px){
+
+    .section-footer{
+        padding: 45px 25px;
+        background-image: url(../Images/footer-bg-mobile.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .footer-text p{
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    
+    .footer-social h4{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .footer-ul{
+        margin-left: 64px;
+    }
+
+    .footer-heading h2{
+        margin-left: 15px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-links-ul{
+        margin-left: 16px;
+    }
+
+    .footer-links{
+        margin-bottom: 30px;
+    }
+
+    .instagram{
+        margin-left: 12px;
+        margin-bottom: 30px;
+    }
+
+    .news-post{
+        margin-left: 10px;
+    }
+
+    .news-post h4{
+        font-size: 14px;
+
+    }
+
+    .news-post p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+
+    .section-footer{
+        padding: 60px 25px;
+        background-image: url(../Images/footer-bg-mobile2.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .footer-logo img{
+        width: 190px;
+    }
+
+    
+
+    .footer-heading h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .footer-text p{
+        margin-bottom: 30px;
+    }
+
+    .instagram-title{
+        margin-left: 10px;
+    }
+
+    .instagram{
+        margin-left: 10px;
+    }
+    .instagram-img{
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .section-footer{
+        padding: 40px 0px;
+    }
+    .footer-logo img{
+        width: 150px;
+    }
+
+    .footer-text p{
+        font-size: 13px;
+        line-height: 20px;
+        text-align: justify;
+        margin-bottom: 10px
+    }
+
+    .footer-heading h2{
+        padding-top: 0px;
+        font-size: 19px;
+        margin-bottom: 24px;
+    }
+
+    .footer-links-ul li{
+        margin-bottom: 5px;
+    }
+
+    .footer-links-ul li a{
+        font-size: 11px;
+        line-height: 20px;
+        padding-left: 20px;
+    }
+
+    .footer-ul li{
+        margin-left: 10px;
+    }
+
+    .instagram-img{
+        padding: 0 4px;
+    }
+
+    .instagram-img img{
+        width: 79px;
+        height: 60px;
+    }
+
+    .news-post h4{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+
+    .footer-logo img{
+        width: 190px;
+    }
+
+    .footer-text p{
+        margin-bottom: 8px;
+        text-align: justify;
+        line-height: 22px;
+    }
+
+    .footer-heading h2{
+        margin-bottom: 20px;
+    }
+
+    .footer-links-ul li{
+        margin-bottom: 10px;
+    }
+
+    .instagram-img{
+        padding: 0 2px;
+        margin-bottom: 2px;
+    }
+    .instagram-img img{
+        width: 67px;
+        height: 76px;
+    }
+
+}
+
+
+/* ========================================= About Page =====================================  */
+
+/* -----------------Why Choose Us ------------------ */
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    
+
+    .feature-box{
+        background-color: #e2e2e2;
+    }
+
+    .feature-icon {
+        padding: 25px 25px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .feature-icon img{
+        width: 55px;
+        height: 55px;
+    }
+    
+    .feature-icon::before{
+        display: none;
+    }
+
+    .feature-content{
+        position: static;
+        display: block;
+        text-align: center;
+    }
+
+    .feature-content p{
+        line-height: 22px;
+    }
+
+    .workshop-text{
+        padding-bottom: 20px;
+    }
+
+    .feature-content h3{
+        text-align:center;
+    }
+
+    .feature-icon-2{
+        width: 100%;
+        background-color: #1c63b8;
+        text-align: center;
+        padding: 25px 25px;
+    }
+
+    .feature-icon-2::before{
+        display: none;
+    }
+
+    .feature-box2-icon1{
+        display: none;
+    }
+
+    .feature-icon-3{
+        width: 100%;
+        background-color: #dadada;
+        text-align: center;
+        padding: 25px 25px;
+    }
+
+    .feature-icon-3::before{
+        display: none;
+    }
+
+    .feature-box-3{
+        background-color: #dadada;
+    }
+
+    .choose-us-content{
+        margin-top: 30px;
+    }
+
+    .choose-us-content h1{
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .choose-us-content h1::before{
+        left: 12%;
+        width: 190px;
+    }
+
+    .choose-us-content h1::after{
+        left: 21%;
+        width: 190px;
+    }
+
+    .choose-us-content p{
+        text-align: justify;
+        font-size: 14px;
+        margin-bottom: 15px;
+        line-height: 22px;
+    }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:767px){
+
+    .section-chooseus{
+        padding: 40px 0px;
+    }
+
+    .feature-icon{
+        padding: 37px 15px;
+    }
+
+    .feature-icon::before{
+        border-bottom: 159px solid #e2e2e2;
+    }
+
+    .feature-content{
+       left: 67px;
+    }
+
+    .feature-content-2{
+        left: 54px !important;
+    }
+
+    .feature-icon-2{
+        padding: 40px 15px;
+    }
+
+    .feature-icon-2::before{
+        border-bottom: 165px solid #fff;
+    }
+
+    .choose-us-content{
+     margin-top: 20px;   
+    }
+
+    .choose-us-content h1{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .choose-us-content h1::before{
+        top: 60px;
+        left: 25%;
+    }
+    
+    .choose-us-content h1::after{
+        top: 65px;
+        left: 33%
+    }
+
+    .choose-us-content p{
+        text-align: justify;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    
+    .section-chooseus{
+        padding: 60px 0px;
+    }
+
+    .feature-box{
+        margin-bottom: 30px;
+    }
+
+    .feature-icon{
+        padding: 50px 25px;
+    }
+
+    .feature-icon img{
+        width: 40px;
+    }
+
+    .feature-icon::before{
+        right: -40px;
+        border-bottom: 143px solid #e2e2e2;
+        border-right: 41px solid transparent;
+    }
+
+    .feature-content{
+        position: absolute;
+        left: 149px;
+        top: 29px;
+    }
+
+    .feature-content h3 {
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .feature-content p {
+        font-size: 12px;
+        margin-right: 40px;
+        line-height: 17px;
+    }
+    /* ------------Feature Box Second ------- */
+
+    .feature-box-2{
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .feature-box2-icon1{
+        width: 40px;
+    }
+
+    .feature-box2-icon2{
+        display: none;
+    }
+    
+    .feature-icon-2::before{
+        border-bottom: 142px solid #fff;
+    }
+    
+    .feature-content-2{
+        position: absolute !important;
+        left: 133px !important;
+    }
+
+    .feature-content-2 p{
+        margin-right: 20px !important;
+    }
+
+    /* ------ Feature Box 3--------- */
+
+    .feature-box-3{
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .feature-icon-3 img{
+        width: 40px;
+    }
+
+    .feature-icon-3::before{
+        border-bottom: 142px solid #dadada;
+    }
+
+    .feature-content-3{
+        position: absolute !important;
+        top: 22px;
+    }
+
+    .feature-content-3 p{
+        font-size: 10px;
+    }
+
+    .choose-us-content h1{
+        margin-bottom: 40px;
+    }
+
+    .choose-us-content p{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1999px){
+    
+    .feature-icon img{
+        width: 60px;
+    }
+
+    .feature-icon::before {
+        border-bottom: 164px solid #e2e2e2;
+    }
+
+    .feature-content p{
+        font-size: 13px;
+    }
+
+/* --------- Feature-box 2 ------------ */
+
+.feature-box2-icon1{
+    width: 60px;
+}
+
+.feature-box2-icon2{
+    display: none;
+}
+
+.feature-icon-2::before {
+    border-bottom: 164px solid #fff;
+}
+
+/* ----------- Feature-Box 3 ---------- */
+
+.feature-icon-3 img{
+    width: 60px;
+}
+
+.feature-icon-3::before {
+    border-bottom: 163px solid #dadada;
+}
+
+.feature-content-3 h3{
+    font-size: 18px !important;
+}
+
+/* -----------Why choose Us content ------ */
+
+.choose-us-content p {
+    font-size: 15px;
+    margin-bottom: 16px;
+    line-height: 23px;
+}
+
+}
+/* =================== Company Names =================== */
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .company-brands{
+        font-size: 25px;
+    }
+
+    .company-brands::before{
+        top: 80px;
+        left: 33%;
+    }
+
+    .company-brands::after{
+        top: 86px;
+        left: 28%;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:767px){
+
+    .company-brands{
+        font-size: 34px;
+    }
+
+    .company-brands::before{
+        top: 86px;
+        left: 38%;
+    }
+
+    .company-brands::after{
+        top: 92px;
+        left: 42%;
+    }
+}
+
+
+/* ============================= Gallary - Page ==================== */
+
+@media only screen and (min-width:320px) and (max-width:420px){
+
+    .plus-box a{
+        top: 54px;
+        padding: 0px 13px;
+        font-size: 20px;
+    }
+
+    .gallary-content {
+        position: absolute;
+        bottom: 30px;
+        left: 64px;
+    }
+
+}
+
+@media only screen and (min-width:421px) and (max-width:575px){
+
+    .gallary-box{
+        display: block;
+    }
+
+    .plus-box a{
+        top: 61px;
+        padding: 0px 17px;
+        font-size: 52px;
+    }
+
+    .gallary-content{
+        bottom: 60px;
+        left: 170px;
+    }
+}
+
+
+@media only screen and (min-width:576px) and (max-width:767px){
+
+    
+.gallary-overlay a {
+    top: 42px;
+    padding: 0px 13px;
+    font-size: 20px;
+    left: 40%;
+}
+
+.gallary-content {
+    bottom: 20px;
+    left: 59px;
+}
+
+.gallary-overlay h3 {
+    font-size: 11px;
+}
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .gallary-overlay a {
+        top: 25px;
+        padding: 0px 13px;
+        font-size: 20px;
+        left: 40%;
+    }
+
+    .gallary-content {
+        bottom: 20px;
+        left: 40px;
+    }
+    
+    .gallary-overlay h3 {
+        font-size: 11px;
+    }
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+   
+    .gallary-overlay a {
+        top: 41px;
+        padding: 0px 13px;
+        font-size: 25px;
+    }
+
+    .gallary-content{
+        left: 65px;
+    }
+
+}
+
+
+/* ============================= Contact Page ==================== */
+
+@media only screen and (min-width:320px) and (max-width:420px){
+
+    .form-box input{
+        padding: 12px 20px;
+        margin-bottom: 15px;
+    }
+
+   
+    .contact-detail-box{
+        padding-top: 40px;
+    }
+
+    .contact-box{
+        margin-bottom: 35px;
+    }
+
+    .contact-detail-ul li p {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (min-width:421px) and (max-width:767px){
+
+    .form-box input{
+        padding: 12px 20px;
+        margin-bottom: 15px;
+    }
+
+   
+    .contact-detail-box{
+        padding-top: 50px;
+    }
+
+    .contact-box{
+        margin-bottom: 35px;
+    }
+
+    .contact-detail-ul{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .contact-detail-ul li p {
+        margin-left: 20px;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .contact-box{
+        margin-bottom: 35px;
+    }
+
+    .contact-detail-ul li p{
+        margin-left: 0;
+        font-size: 10px;
+    }
+
+    .contact-detail-ul li a{
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+
+  .contact-detail-ul li p{
+        margin-left: 8px;
+        font-size: 14px;
+    }
+
+}
