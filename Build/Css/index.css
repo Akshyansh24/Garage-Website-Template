@@ -206,7 +206,7 @@
 .stick_tab_1{
     z-index: 99999 !important;
     position: sticky;
-    top: 0;
+    top: -1;
     left: 0;
     background-color: white;
     animation: slide-down .8s;
