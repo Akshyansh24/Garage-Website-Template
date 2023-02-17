@@ -766,7 +766,7 @@
 .section-footer{
     background-image: url(../Images/footer-bg.jpg);
     background-repeat: no-repeat;
-    padding: 60px 0px;
+    padding: 60px 0px 20px 0px;
 }
 
 .footer-logo{
@@ -946,6 +946,9 @@
     margin-right: 10px;
 }
 
+.credit-text{
+    color: #aaaaaa;
+}
 /* ========================== About Page ======================== */
 
 /* ============Section Banner ============== */
